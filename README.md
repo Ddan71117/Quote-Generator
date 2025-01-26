@@ -15,7 +15,7 @@
 ## Description
 
 This is a random quote generator, where a user can save quotes and delete them as well.
-![ScreenShot](https://github.com/Ddan71117/Redux-Store/blob/main/public/Screenshot/.PNG)
+![ScreenShot](https://github.com/Ddan71117/Quote-Generator/blob/main/public/Screenshot.PNG)
 
 ## Installation
 
