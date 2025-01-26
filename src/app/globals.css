@@ -3,19 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: linear-gradient(-45deg, #F29F58, #AB4459, #441752, #1B1833);
+  --foreground-color: #ffffff; /* Use a solid color for text */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: linear-gradient(-45deg, #F29F58, #AB4459, #441752, #1B1833);
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(--foreground-color);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  margin: 0; /* Ensure no default browser margin interferes */
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

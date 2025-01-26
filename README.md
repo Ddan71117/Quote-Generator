@@ -1,37 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quote Generator
 
-## Getting Started
+![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Tests](#tests)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
+7. [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This is a random quote generator, where a user can save quotes and delete them as well.
+![ScreenShot](https://github.com/Ddan71117/Redux-Store/blob/main/public/Screenshot/.PNG)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To install this app, be sure to copy the code from the Repository and run the command `npm run i` to install the required dependencies and run the command `npm run dev` to start the server.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After installing the application, users can click the "Get quote" button to generate a random quote. The quote can then be saved to a separate page by clicking "Save Quote". Using the navigation bar at the top, clicking on the Saved Quotes page displays all of the saved quotes. Quotes can then be deleted by clicking the "Delete" button.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Link for deployed application:
 
-## Deploy on Vercel
+[Quote Generator]()
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Quote-Generator
+All testing was done via the terminal and through Xpert Learning Assistant and ChatGPT.
+
+## Contributing
+
+Daniel Drennen
+
+Xpert Learning Assistant and ChatGPT provided invaluable support with coding concepts, debugging, and resources throughout my project development.
+
+## Questions
+
+https://github.com/Ddan71117
+
+For additional questions, please contact me at ddren024@gmail.com.
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
