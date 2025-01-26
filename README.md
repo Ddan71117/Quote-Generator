@@ -27,7 +27,7 @@ After installing the application, users can click the "Get quote" button to gene
 
 Link for deployed application:
 
-[Quote Generator]()
+[Quote Generator](https://quote-generator-xi-gold.vercel.app/)
 
 ## Tests
 
